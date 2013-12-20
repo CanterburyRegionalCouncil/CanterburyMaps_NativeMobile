@@ -214,7 +214,7 @@ callPortal = function (id, data_offset) {
 
             // Retrieve the web maps and applications from the group and display           
             var params = {
-                q: ' type: Web Map -Application',
+                q: ' type: Web Map',
                 num: quickmaps.config.displayOptions.numItemsPerPage,
                 start: startpos
             };

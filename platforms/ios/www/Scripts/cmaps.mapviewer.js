@@ -35,7 +35,7 @@ if (config == null)
 var currentLocation, grid, store, resizeTimer;
 
 //set for debug mode
-var debugMode = false;
+var debugMode = true;
 
 //set site url
 ecan.mapviewer.SiteURL = "http://canterburymaps.govt.nz/viewer/";
@@ -5024,8 +5024,12 @@ if (ecan.mapviewer.isNative) {
 
 // Cordova is loaded and it is now safe to make calls Cordova methods //
 function onDeviceReady() {
-    document.addEventListener("offline", checkConnection, false);
-    checkConnection();
+if (debugMode) console.log('loading phonegap');
+						if (parseFloat(window.device.version) === 7.0) {
+                          document.body.style.marginTop = "20px!important";
+                          }
+                          document.addEventListener("offline", checkConnection, false);
+                          checkConnection();
 }
 
 function loadURL(url, target) {

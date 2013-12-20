@@ -31,6 +31,7 @@ http://creativecommons.org/licenses/by-nc-sa/3.0/nz/
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
+<script type="text/javascript" src="cordova.js"></script>
 
     <script type="text/javascript">
         var djConfig = {
@@ -130,7 +131,7 @@ http://creativecommons.org/licenses/by-nc-sa/3.0/nz/
             loadjscssfile("Content/tablet.css", "css"); ////dynamically load and add this .css file
 
         //load cordova file if Native
-        if (ecan.mapviewer.isNative) loadjscssfile("cordova-2.7.0.js", "js");
+        if (ecan.mapviewer.isNative) loadjscssfile("cordova.js", "js");
 
         //function to load css or js file
         function loadjscssfile(filename, filetype) {

@@ -1,22 +1,20 @@
-2013-12-19 23:17:46.204 CanterburyMaps[76055:80b] Multi-tasking -> Device: YES, App: YES
-2013-12-19 23:17:46.300 CanterburyMaps[76055:80b] Unlimited access to network resources
-2013-12-19 23:17:47.929 CanterburyMaps[76055:80b] Resetting plugins due to page load.
-2013-12-19 23:17:50.399 CanterburyMaps[76055:80b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
-2013-12-19 23:17:50.399 CanterburyMaps[76055:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
-  "Device1513806806",
-  "Device",
-  "getDeviceInfo",
-  [
-
-  ]
-]
-2013-12-19 23:17:50.400 CanterburyMaps[76055:80b] ERROR: Plugin 'NetworkStatus' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
-2013-12-19 23:17:50.400 CanterburyMaps[76055:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
-  "NetworkStatus1513806807",
-  "NetworkStatus",
-  "getConnectionInfo",
-  [
-
-  ]
-]
-2013-12-19 23:17:51.271 CanterburyMaps[76055:80b] Finished load of: file:///Users/coomsie/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/C53DCA1D-C7D8-4133-9448-745DF5296F3A/CanterburyMaps.app/www/index.html
+2013-12-20 15:15:30.833 CanterburyMaps[22697:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-20 15:15:30.849 CanterburyMaps[22697:a0b] Unlimited access to network resources
+2013-12-20 15:15:31.229 CanterburyMaps[22697:a0b] Resetting plugins due to page load.
+2013-12-20 15:15:31.660 CanterburyMaps[22697:a0b] Finished load of: file:///Users/ecanit/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/026AE589-B252-42B5-8BBF-6BB3FA847220/CanterburyMaps.app/www/index.html
+2013-12-20 15:25:21.539 CanterburyMaps[53661:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-20 15:25:21.559 CanterburyMaps[53661:a0b] Unlimited access to network resources
+2013-12-20 15:25:21.996 CanterburyMaps[53661:a0b] Resetting plugins due to page load.
+2013-12-20 15:25:22.846 CanterburyMaps[53661:a0b] Finished load of: file:///Users/ecanit/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/4D13D792-6328-4311-98BE-4EA8D68DC2F8/CanterburyMaps.app/www/index.html
+2013-12-20 15:40:42.774 CanterburyMaps[84667:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-20 15:40:42.813 CanterburyMaps[84667:a0b] Unlimited access to network resources
+2013-12-20 15:40:42.896 CanterburyMaps[84667:a0b] Resetting plugins due to page load.
+2013-12-20 15:40:43.819 CanterburyMaps[84667:a0b] Finished load of: file:///Users/ecanit/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/CBE0A5DD-9564-465C-BC7D-1F413C81CBD7/CanterburyMaps.app/www/index.html
+2013-12-20 16:05:33.490 CanterburyMaps[46492:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-20 16:05:33.523 CanterburyMaps[46492:a0b] Unlimited access to network resources
+2013-12-20 16:05:34.010 CanterburyMaps[46492:a0b] Resetting plugins due to page load.
+2013-12-20 16:05:35.260 CanterburyMaps[46492:a0b] Finished load of: file:///Users/ecanit/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7CDD9BBA-0E00-4488-B492-86421D239AD0/CanterburyMaps.app/www/index.html
+2013-12-20 16:14:08.200 CanterburyMaps[77506:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-20 16:14:08.207 CanterburyMaps[77506:a0b] Unlimited access to network resources
+2013-12-20 16:14:08.322 CanterburyMaps[77506:a0b] Resetting plugins due to page load.
+2013-12-20 16:14:10.390 CanterburyMaps[77506:a0b] Finished load of: file:///Users/ecanit/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7CDD9BBA-0E00-4488-B492-86421D239AD0/CanterburyMaps.app/www/index.html
