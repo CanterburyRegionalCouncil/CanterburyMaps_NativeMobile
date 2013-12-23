@@ -5025,10 +5025,7 @@ if (ecan.mapviewer.isNative) {
 // Cordova is loaded and it is now safe to make calls Cordova methods //
 function onDeviceReady() {
 if (debugMode) console.log('loading phonegap');
-						if (parseFloat(window.device.version) === 7.0) {
-                          document.body.style.marginTop = "20px!important";
-                          }
-                          document.addEventListener("offline", checkConnection, false);
+						  document.addEventListener("offline", checkConnection, false);
                           checkConnection();
 }
 
