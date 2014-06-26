@@ -17,7 +17,7 @@
  under the License.
  */
 //
-// Prefix header for all source files of the 'CanterburyMaps_iOS' target in the 'CanterburyMaps_iOS' project
+// Prefix header for all source files of the 'CanterburyMaps' target in the 'CanterburyMaps' project
 //
 
 #ifdef __OBJC__

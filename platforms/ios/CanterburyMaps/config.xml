@@ -1,58 +1,97 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="nz.govt.canterburymaps" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="nz.govt.canterburymaps" version="1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value=".25" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
     <name>CanterburyMaps</name>
     <description>
-		Canterbury Maps is a mapping application that allows users to view and manipulate online maps from Canterbury Regional Council and other organisations in the Canterbury Region.
+		Canterbury Maps is a mapping application that allows users to view and manipulate online maps from Canterbury Regional Council and other organisations in the Canterbury Region. 
 
-		The application allows the user to search pre-configured maps, located on the canterburymaps.govt.nz portal, accessed via a mobile device.
+		The application allows the user to search pre-configured maps, located on the canterburymaps.govt.nz portal, accessed via a mobile device. 
+
+		The mapping application contains the following features 
+
+		for the iPhone / iPad / iPad mini 
+
+		* GPS - to locate where you are on the map 
+		* Gallery of pre-configured maps 
+		* Ability to turn mapping layers on/off 
+		* Ability to switch base maps 
+		* Pop-up windows with extra information on the map 
+		* Quick search method for addresses within Canterbury 
+		* Map legend support for the map loaded 
+		* Help pages. 
+
+		Additional features on iPads and iPad minis: 
+
+		* Drawing graphics on the map 
+		* Searching for map features on the map 
+		* Identifying features on the map 
+		* Share your map with others 
+		* Measure on the map 
+		* Locate positions on the map with coordinates. 
+        
     </description>
     <author email="ecinfo@ecan.govt.nz" href="http://canterburymaps.govt.nz">
         CanterburyMaps Team
     </author>
+    <content src="index.html" />
+    <access origin="*" />
     <preference name="AllowInlineMediaPlayback" value="false" />
-    <preference name="BackupWebStorage" value="none" />
-    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackupWebStorage" value="cloud" />
     <preference name="EnableViewportScale" value="true" />
-    <preference name="FadeSplashScreen" value="true" />
-    <preference name="FadeSplashScreenDuration" value=".5" />
     <preference name="KeyboardDisplayRequiresUserAction" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="SuppressesIncrementalRendering" value="false" />
-    <preference name="TopActivityIndicator" value="white" />
+    <preference name="TopActivityIndicator" value="gray" />
     <preference name="GapBetweenPages" value="0" />
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="BackupWebStorage" value="local" />
+    <feature name="StatusBar">
+        <param name="ios-package" onload="true" value="CDVStatusBar" />
+    </feature>
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
-    </feature>
-    <feature name="Console">
-        <param name="ios-package" value="CDVLogger" />
-    </feature>
-    <feature name="Device">
-        <param name="ios-package" value="CDVDevice" />
     </feature>
     <feature name="Geolocation">
         <param name="ios-package" value="CDVLocation" />
     </feature>
-    <feature name="InAppBrowser">
-        <param name="ios-package" value="CDVInAppBrowser" />
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
     </feature>
-    <feature name="Keyboard">
-        <param name="ios-package" onload="true" value="CDVKeyboard" />
-    </feature>
-    <feature name="NetworkStatus">
-        <param name="ios-package" value="CDVConnection" />
+    <feature name="Compass">
+        <param name="ios-package" value="CDVCompass" />
     </feature>
     <feature name="SplashScreen">
         <param name="ios-package" value="CDVSplashScreen" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="StatusBar">
-        <param name="ios-package" onload="true" value="CDVStatusBar" />
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification" />
     </feature>
-    <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#1570a6" />
-    <content src="index.html" />
-    <access origin="*" />
+    <feature name="Accelerometer">
+        <param name="ios-package" value="CDVAccelerometer" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
 </widget>

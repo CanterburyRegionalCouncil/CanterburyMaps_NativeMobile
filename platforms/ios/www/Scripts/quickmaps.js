@@ -79,7 +79,7 @@ ecan.mapviewer.Gallery.QuickMapsinit = function () {
             else {
                 html += " title='Click to display the contents of this group' >";
             }
-            html += "<div class='groupItem' title='" + this.groupName + "'><img src='" + "Content/images/48x48/" + this.icon + "' alt='Icon' class='groupItemIcon'/><span class='groupItemTitle'>" + truncate(this.groupName, 25) + "</span></div></li>";
+            html += "<div class='groupItem' title='" + this.groupName + "'><img src='" + "http://canterburymaps.govt.nz/viewer/Content/images/48x48/" + this.icon + "' alt='Icon' class='groupItemIcon'/><span class='groupItemTitle'>" + truncate(this.groupName, 25) + "</span></div></li>";
             i++;
         });
 
