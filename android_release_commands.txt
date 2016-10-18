@@ -1,0 +1,44 @@
+//////////////////////////////////////////////////////////
+//////                                         //////////
+//////	Remeber to change the version numbers   /////////
+//////			and debug tag etc 				/////////
+/////////////////////////////////////////////////////////
+
+ionic browser add crosswalk
+
+//make sure you are in the cordova directory
+
+cordova build --release android
+
+?
+
+//note 
+//
+///
+////keytool -genkey -v -keystore canterburymaps.govt.nz-release-key.keystore -alias canterburymaps.govt.nz -keyalg RSA -keysize 2048 -validity 10000
+/////
+
+ONE BUILD
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ./canterburymaps.govt.nz-release-key.keystore ./platforms/android/build/outputs/apk/android-release-unsigned.apk  canterburymaps.govt.nz
+
+
+x86 VERSION
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ./canterburymaps.govt.nz-release-key.keystore ./platforms/android/build/outputs/apk/android-x86-release-unsigned.apk  canterburymaps.govt.nz
+
+arm VERSION
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ./canterburymaps.govt.nz-release-key.keystore ./platforms/android/build/outputs/apk/android-armv7-release-unsigned.apk  canterburymaps.govt.nz
+
+
+//then zip
+
+ONE BUILD 
+/Users/coomsie/Code/android-sdk-mac_x86/build-tools/22.0.1/zipalign -v 4 ./platforms/android/build/outputs/apk/android-release-unsigned.apk ./canterburymaps-2.1.apk
+
+
+
+//x86
+/Users/coomsie/Code/android-sdk-mac_x86/build-tools/22.0.1/zipalign -v 4 ./platforms/android/build/outputs/apk/android-x86-release-unsigned.apk ./canterburymaps-2.1-x86.apk
+
+
+//arm version
+/Users/coomsie/Code/android-sdk-mac_x86/build-tools/22.0.1/zipalign -v 4 ./platforms/android/build/outputs/apk/android-armv7-release-unsigned.apk ./canterburymaps-2.1-armv7.apk

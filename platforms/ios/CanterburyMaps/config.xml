@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="nz.govt.canterburymaps" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="ios-package" onload="true" value="CDVKeyboard" />
+    </feature>
+    <name>CanterburyMaps</name>
+    <description>
+        Canterbury Maps is a mapping application that allows users to view and manipulate online maps from Canterbury Regional Council and other organisations in the Canterbury Region. 
+
+        The application allows the user to search pre-configured maps, located on the canterburymaps.govt.nz portal, accessed via a mobile device. 
+
+        The mapping application contains the following features 
+
+        for the iPhone / iPad / iPad mini 
+
+        * GPS - to locate where you are on the map 
+        * Gallery of pre-configured maps 
+        * Ability to turn mapping layers on/off 
+        * Ability to switch base maps 
+        * Pop-up windows with extra information on the map 
+        * Quick search method for addresses within Canterbury 
+        * Map legend support for the map loaded 
+        * Help pages. 
+
+        Additional features on iPads and iPad minis: 
+
+        * Drawing graphics on the map 
+        * Searching for map features on the map 
+        * Identifying features on the map 
+        * Share your map with others 
+        * Measure on the map 
+        * Locate positions on the map with coordinates.
+    </description>
+    <author email="ecinfo@ecan.govt.nz" href="http://canterburymaps.govt.nz">
+        CanterburyMaps Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <preference name="BackupWebStorage" value="local" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="EnableViewportScale" value="true" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#004f9f" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="iosPersistentFileLocation" value="Compatibility" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+</widget>

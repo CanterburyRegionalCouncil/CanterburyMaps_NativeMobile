@@ -1,0 +1,512 @@
+{
+  "theme": {
+    "name": "FoldableTheme",
+    "styles": [
+      "yellow",
+      "default",
+      "black",
+      "blue",
+      "cyan",
+      "green",
+      "purple",
+      "red"
+    ],
+    "version": "2.1",
+    "customStyles": {
+      "mainBackgroundColor": "#004f9f"
+    }
+  },
+  "portalUrl": "http://ecan.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [
+    "gis.ecan.govt.nz",
+    "gis.ecan.govt.nz",
+    "arcgis.ecan.govt.nz",
+    "arcgis.ecan.govt.nz"
+  ],
+  "title": "Canterbury Maps Viewer",
+  "subtitle": "",
+  "keepAppState": true,
+  "logo": "images\\logo.png",
+  "geometryService": "http://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [
+    {
+      "label": "About",
+      "url": "http://canterburymapstest.azurewebsites.net/about/go-mobile/"
+    }
+  ],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "relativeTo": "browser"
+        },
+        "version": "2.1",
+        "id": "themes_FoldableTheme_widgets_HeaderController_Widget_1",
+        "icon": "themes/FoldableTheme/widgets/HeaderController/images/icon.png?wab_dv=2.1",
+        "name": "HeaderController",
+        "label": "Header Controller"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.1",
+        "id": "widgets_Scalebar_Widget_2",
+        "icon": "widgets/Scalebar/images/icon.png?wab_dv=2.1",
+        "name": "Scalebar",
+        "label": "Scalebar"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 55,
+          "top": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.1",
+        "id": "widgets_Search_Widget_3",
+        "icon": "widgets/Search/images/icon.png?wab_dv=2.1",
+        "name": "Search",
+        "label": "Search"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.1",
+        "id": "widgets_Coordinate_Widget_4",
+        "icon": "widgets/Coordinate/images/icon.png?wab_dv=2.1",
+        "name": "Coordinate",
+        "label": "Coordinate",
+        "config": "configs/Coordinate/config_Coordinate.json",
+        "visible": false
+      },
+      {
+        "position": {
+          "left": 55,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_5",
+        "version": "2.1",
+        "uri": "",
+        "closeable": true,
+        "icon": "widgets/Swipe/images/icon.png?wab_dv=2.1"
+      },
+      {
+        "position": {
+          "left": 105,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_6",
+        "version": "1.2",
+        "uri": "",
+        "icon": "widgets/ElevationProfile/images/icon.png?wab_dv=2.1"
+      },
+      {
+        "position": {
+          "left": 155,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 3,
+        "id": "_7",
+        "version": "1.5",
+        "uri": ""
+      },
+      {
+        "position": {
+          "left": 205,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 4,
+        "id": "_8"
+      },
+      {
+        "position": {
+          "left": 255,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 5,
+        "id": "_9"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "bottom": 0,
+          "right": 0,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.1",
+        "id": "widgets_OverviewMap_Widget_10",
+        "icon": "widgets/OverviewMap/images/icon.png?wab_dv=2.1",
+        "name": "OverviewMap",
+        "label": "Overview",
+        "config": "configs/OverviewMap/config_Overview.json",
+        "visible": false
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 7,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.1",
+        "id": "widgets_HomeButton_Widget_11",
+        "icon": "widgets/HomeButton/images/icon.png?wab_dv=2.1",
+        "name": "HomeButton",
+        "label": "Home"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 110,
+          "relativeTo": "map"
+        },
+        "version": "2.1",
+        "id": "widgets_MyLocation_Widget_12",
+        "icon": "widgets/MyLocation/images/icon.png?wab_dv=2.1",
+        "name": "MyLocation",
+        "label": "My Location",
+        "config": "configs/MyLocation/config_My Location.json"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.1",
+        "id": "widgets_AttributeTable_Widget_13",
+        "icon": "widgets/AttributeTable/images/icon.png?wab_dv=2.1",
+        "name": "AttributeTable",
+        "label": "Attribute Table",
+        "featureActions": [
+          {
+            "name": "ShowRelatedRecords",
+            "uri": "actions/ShowRelatedRecordsFeatureAction"
+          },
+          {
+            "name": "ViewInTable",
+            "uri": "actions/ViewInAttributeTableFeatureAction"
+          }
+        ],
+        "config": "configs/AttributeTable/config_Attribute Table.json",
+        "visible": false
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.1",
+        "id": "widgets_Splash_Widget_14",
+        "icon": "widgets/Splash/images/icon.png?wab_dv=2.1",
+        "name": "Splash",
+        "label": "Splash",
+        "config": "configs/Splash/config_Splash.json"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.1",
+        "id": "widgets_ZoomSlider_Widget_15",
+        "icon": "widgets/ZoomSlider/images/icon.png?wab_dv=2.1",
+        "name": "ZoomSlider",
+        "label": "Zoom Slider"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "0c4c5d8e982c4704b22da9de51cd1ba3",
+    "mapOptions": {
+      "extent": {
+        "xmin": 1128358.4486604983,
+        "ymin": 4918852.869398219,
+        "xmax": 1932693.3906637158,
+        "ymax": 5373407.945175038,
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      "lods": [
+        {
+          "level": 0,
+          "scale": 16000000,
+          "resolution": 4233.341800016934
+        },
+        {
+          "level": 1,
+          "scale": 8000000,
+          "resolution": 2116.670900008467
+        },
+        {
+          "level": 2,
+          "scale": 4000000,
+          "resolution": 1058.3354500042335
+        },
+        {
+          "level": 3,
+          "scale": 2000000,
+          "resolution": 529.1677250021168
+        },
+        {
+          "level": 4,
+          "scale": 1000000,
+          "resolution": 264.5838625010584
+        },
+        {
+          "level": 5,
+          "scale": 750000,
+          "resolution": 198.43789687579377
+        },
+        {
+          "level": 6,
+          "scale": 500000,
+          "resolution": 132.2919312505292
+        },
+        {
+          "level": 7,
+          "scale": 250000,
+          "resolution": 66.1459656252646
+        },
+        {
+          "level": 8,
+          "scale": 100000,
+          "resolution": 26.458386250105836
+        },
+        {
+          "level": 9,
+          "scale": 50000,
+          "resolution": 13.229193125052918
+        },
+        {
+          "level": 10,
+          "scale": 25000,
+          "resolution": 6.614596562526459
+        },
+        {
+          "level": 11,
+          "scale": 20000,
+          "resolution": 5.291677250021167
+        },
+        {
+          "level": 12,
+          "scale": 15000,
+          "resolution": 3.9687579375158752
+        },
+        {
+          "level": 13,
+          "scale": 10000,
+          "resolution": 2.6458386250105836
+        },
+        {
+          "level": 14,
+          "scale": 8000,
+          "resolution": 2.116670900008467
+        },
+        {
+          "level": 15,
+          "scale": 4000,
+          "resolution": 1.0583354500042335
+        },
+        {
+          "level": 16,
+          "scale": 2000,
+          "resolution": 0.5291677250021167
+        },
+        {
+          "level": 17,
+          "scale": 1000,
+          "resolution": 0.26458386250105836
+        },
+        {
+          "level": 18,
+          "scale": 500,
+          "resolution": 0.13229193125052918
+        },
+        {
+          "level": 19,
+          "scale": 250,
+          "resolution": 0.06614596562526459
+        }
+      ]
+    },
+    "id": "map",
+    "portalUrl": "http://ecan.maps.arcgis.com"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.1",
+        "id": "widgets_Legend_Widget_16",
+        "icon": "widgets/Legend/images/icon.png?wab_dv=2.1",
+        "name": "Legend",
+        "label": "Legend",
+        "index": 2
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.1",
+        "id": "widgets_LayerList_Widget_17",
+        "icon": "widgets/LayerList/images/icon.png?wab_dv=2.1",
+        "name": "LayerList",
+        "label": "Layer List",
+        "index": 3
+      },
+      {
+        "name": "AddData",
+        "label": "Add Data",
+        "version": "2.1",
+        "uri": "widgets/AddData/Widget",
+        "index": 4,
+        "id": "widgets_AddData_Widget_18",
+        "icon": "widgets/AddData/images/icon.png?wab_dv=2.1"
+      },
+      {
+        "name": "Gallery",
+        "label": "Gallery",
+        "version": "0.0.1",
+        "IsController": false,
+        "uri": "widgets/Gallery/Widget",
+        "config": "configs/Gallery/config_Gallery.json",
+        "index": 5,
+        "id": "widgets_Gallery_Widget_22",
+        "icon": "widgets/Gallery/images/icon.png?wab_dv=2.1"
+      },
+      {
+        "name": "BasemapGallery",
+        "label": "Basemap Gallery",
+        "version": "2.1",
+        "uri": "widgets/BasemapGallery/Widget",
+        "index": 6,
+        "id": "widgets_BasemapGallery_Widget_23",
+        "config": "configs/BasemapGallery/config_Basemap Gallery.json",
+        "icon": "widgets/BasemapGallery/images/icon.png?wab_dv=2.1"
+      },
+      {
+        "name": "Bookmark",
+        "label": "Bookmark",
+        "version": "2.1",
+        "uri": "widgets/Bookmark/Widget",
+        "index": 7,
+        "id": "widgets_Bookmark_Widget_24",
+        "config": "configs/Bookmark/config_Bookmark.json",
+        "icon": "widgets/Bookmark/images/icon.png?wab_dv=2.1"
+      },
+      {
+        "name": "About CMaps",
+        "label": "About",
+        "version": "2.1",
+        "uri": "widgets/About/Widget",
+        "config": "configs/About CMaps/config_About.json",
+        "index": 8,
+        "id": "widgets_About_Widget_21",
+        "icon": "widgets/About/images/icon.png?wab_dv=2.1"
+      },
+      {
+        "name": "Share",
+        "label": "Share",
+        "version": "2.0.1",
+        "uri": "widgets/Share/Widget",
+        "config": "configs/Share/config_Share.json",
+        "index": 9,
+        "id": "widgets_Share_Widget_28",
+        "icon": "widgets/Share/images/icon.png?wab_dv=2.1"
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": {
+        "widgets/Scalebar/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 40
+          },
+          "version": "1.4"
+        },
+        "widgets/Coordinate/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 17
+          },
+          "version": "1.4"
+        }
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#004f9f",
+    "backgroundImage": {
+      "visible": true,
+      "uri": "configs/loading/images/background.png",
+      "width": 181,
+      "height": 133
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "/webappbuilder/apps/20/configs/loading/images/predefined_loading_3.gif",
+      "width": 32,
+      "height": 32
+    }
+  },
+  "wabVersion": "2.1",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "url": "/proxy.js"
+  }
+}
