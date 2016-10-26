@@ -6,7 +6,7 @@
     "pageSize": 6,
     "orderBy": "MostRecent",
     "mapItemUrls": {
-        "basicUrl": "/",
+        "basicUrl": "",
         "itemDetailsUrl": "http://canterburymapstest.azurewebsites.net/map"
     }
 }
