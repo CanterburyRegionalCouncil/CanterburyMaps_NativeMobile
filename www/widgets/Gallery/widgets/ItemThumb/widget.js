@@ -5,7 +5,7 @@ define([
 		'dojo/dom-class',
 		'dijit/_WidgetBase',
 		'dijit/_TemplatedMixin',
-		'dojo/text!./template/Widget.html',
+		'dojo/text!./template/widget.html',
 		'./../../js/ExtentUtilities'
 	],function(declare, lang, on, domClass, _WidgetBase, _TemplatedMixin, widgetTemplate, ExtentUtilities){
 		return declare('ItemThumbWidget',[_WidgetBase, _TemplatedMixin, ExtentUtilities],{
