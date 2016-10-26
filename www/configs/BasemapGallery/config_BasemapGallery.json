@@ -1,0 +1,409 @@
+{
+  "basemapGallery": {
+    "basemaps": [
+      {
+        "title": "Aerial 1940-1949",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/adf5a21ea40d45559e0bd97505829174/info/thumbnail/2014-11-06_10_18_09-Aerial_1940-1949.png",
+        "layers": [
+          {
+            "id": "layer0",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/SN152_Christchurch_19411014/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Aerial 1950-1959",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/c971d31580fc44aab176a7e13570bc4a/info/thumbnail/2014-11-06_10_18_09-Aerial_1940-1949.png",
+        "layers": [
+          {
+            "id": "layer0",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/SN872_Christchurch_19550510/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Aerial 1960-1969",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/470d0133044c49f2873cf994ed0458ae/info/thumbnail/2014-11-06_10_18_09-Aerial_1940-1949.png",
+        "layers": [
+          {
+            "id": "layer0",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/SN1786_Christchurch_19651029/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Aerial 1970-1979",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/1586053b4b3a4955bf31bdc71c644ee3/info/thumbnail/2014-11-06_10_18_09-Aerial_1940-1949.png",
+        "layers": [
+          {
+            "id": "layer0",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/SN2634_Christchurch_19730926/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Aerial 1980-1989",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/8f80cc19d92f4b6ebf3e1a0171e980f1/info/thumbnail/2014-11-06_10_18_09-Aerial_1940-1949.png",
+        "layers": [
+          {
+            "id": "layer0",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/SN8389_Christchurch_19840928/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Aerial 1990-1998",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/437b1995ef0b4941be808bcdc9cf7945/info/thumbnail/2014-11-06_10_18_09-Aerial_1940-1949.png",
+        "layers": [
+          {
+            "id": "layer0",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/SN9381_Christchurch_19941126/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Aerial 99-08",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/88b32ff971a449cd805038f2e262b8ed/info/thumbnail/imageryold.png",
+        "layers": [
+          {
+            "id": "layer0",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/TL_Ortho75_Canterbury/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Canterbury Aerial Imagery 1925 to 1929",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/0784812c93be4df6b5e309b1cbbb2f30/info/thumbnail/RNZAF.JPG",
+        "layers": [
+          {
+            "id": "Imagery_6396",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/ArcGIS/rest/services/Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Canterbury Aerial Imagery 1940 to 1944",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/32332395adfc4c089ba35fc85c89ddee/info/thumbnail/SN152.png",
+        "layers": [
+          {
+            "id": "Imagery_9039",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Canterbury Aerial Imagery 1945 to 1949",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/86950268e3214510958ddcc9777e9477/info/thumbnail/45492.png",
+        "layers": [
+          {
+            "id": "Imagery_9841",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis1.ecan.govt.nz/arcgis/rest/services/Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Canterbury Aerial Imagery 1955 to 1959",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/deb50134d78e487bbe6e40fd4ddfa7a6/info/thumbnail/55592.png",
+        "layers": [
+          {
+            "id": "Imagery_9841",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis1.ecan.govt.nz/arcgis/rest/services/Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Canterbury Aerial Imagery 1965 to 1969",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/04523b686205457aab701939d6f59fd1/info/thumbnail/SN1786.png",
+        "layers": [
+          {
+            "id": "Imagery_9841",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis1.ecan.govt.nz/arcgis/rest/services/Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Canterbury Aerial Imagery 1970 to 1974",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/a92a0370bbf5476fa83167236a5d1fb2/info/thumbnail/7074.png",
+        "layers": [
+          {
+            "id": "Imagery_2506",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis1.ecan.govt.nz/arcgis/rest/services/Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Canterbury Aerial Imagery 1975 to 1979",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/484d5742eb5f4c069651cf466993c7ff/info/thumbnail/7579.png",
+        "layers": [
+          {
+            "id": "Imagery_6897",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Canterbury Aerial Imagery 1980 to 1984",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/2fb94c7e6dfa411d99c53a3c8dfc8b60/info/thumbnail/8084.png",
+        "layers": [
+          {
+            "id": "Imagery_6897",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Canterbury Aerial Imagery 1985 to 1989",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/7cb2ec4c03444ebfae2794cdba0a44e6/info/thumbnail/8589.png",
+        "layers": [
+          {
+            "id": "Imagery_6897",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Canterbury Aerial Imagery 1990 to 1994",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/9a037d3081ff476ea490b9f320761737/info/thumbnail/9094.png",
+        "layers": [
+          {
+            "id": "Imagery_4895",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Canterbury Aerial Imagery 1995 to 1999",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/7f7ae2954db74c568ed011fb9c2e513e/info/thumbnail/9599.png",
+        "layers": [
+          {
+            "id": "Imagery_6897",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Canterbury Aerial Imagery 2000 to 2004",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/1de19f84b2874f1b96998c613991ec01/info/thumbnail/0004.png",
+        "layers": [
+          {
+            "id": "Imagery_6897",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Latest Imagery",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/012fb63cb6554686bb596d5ced78782d/info/thumbnail/imagery_new.jpg",
+        "layers": [
+          {
+            "id": "Imagery_6396",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/ArcGIS/rest/services/Imagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Latest Imagery with labels",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/17ea68e0628140da919d16e49e878e79/info/thumbnail/Latest_Imagery_with_labels.png",
+        "layers": [
+          {
+            "url": "http://gis.ecan.govt.nz/ArcGIS/rest/services/Imagery/MapServer"
+          },
+          {
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base_Labels/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Street",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/303e7ea5f39642728cd78daf8dd19279/info/thumbnail/ago_downloaded.png",
+        "layers": [
+          {
+            "id": "SimpleBasemap_6983",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/ArcGIS/rest/services/SimpleBasemap/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Street with labels",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/89dd6323510f4ecfbf974a7c25606921/info/thumbnail/Street_with_labels.png",
+        "layers": [
+          {
+            "url": "http://gis.ecan.govt.nz/ArcGIS/rest/services/SimpleBasemap/MapServer"
+          },
+          {
+            "url": "http://gis.ecan.govt.nz/arcgis/rest/services/Public/Region_Base_Labels/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      },
+      {
+        "title": "Topo",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/b4db0fde3ed446e280b4c195e4a53a1f/info/thumbnail/ago_downloaded.png",
+        "layers": [
+          {
+            "id": "Topoimagery_381",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://gis.ecan.govt.nz/ArcGIS/rest/services/Topoimagery/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 2193,
+          "latestWkid": 2193
+        }
+      }
+    ]
+  }
+}
