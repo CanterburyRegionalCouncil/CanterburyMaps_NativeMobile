@@ -35,6 +35,62 @@
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
 
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="ios-package" onload="true" value="CDVKeyboard" />
+    </feature>
+
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="android-package" onload="true" value="org.apache.cordova.labs.keyboard.Keyboard" />
+    </feature>
+
+
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="none" />
     <preference name="EnableViewportScale" value="true" />
