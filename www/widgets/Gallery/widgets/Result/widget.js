@@ -10,7 +10,7 @@ define([
 	'dijit/_TemplatedMixin',
 	'./js/MapGallerySearch',
 	'./../Pagination/widget',
-	'./../ItemThumb/Widget',
+	'./../ItemThumb/widget',
 	'dojo/text!./template/widget.html',
 	"dojox/mobile",
   	"dojox/mobile/parser",
