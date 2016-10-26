@@ -59,7 +59,7 @@ Global functions:
 var
   //    the URL of the ArcGIS API for JavaScript, you can change it to point to your own API.
   apiUrl = null,
-
+  
   //weinreUrl: String
   //    weinre is a tool which can help debug the app on mobile devices.
   //    Please see: http://people.apache.org/~pmuellr/weinre/docs/latest/Home.html
@@ -96,6 +96,9 @@ var
   ////////uncomment the following line when downloading the app
 
   //apiUrl = '//js.arcgis.com/3.18';
+  // Normally without protocol as above, but need this for mobile
+  apiUrl = 'http://js.arcgis.com/3.18';
+
 
   //////////////////////////////////////////////////////////////
   allCookies = getAllCookies();

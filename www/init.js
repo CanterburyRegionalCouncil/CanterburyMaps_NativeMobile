@@ -170,6 +170,16 @@ var ie = (function() {
       mapId: 'map'
     };
 
+
+    //<<<<MUST CALL loadResources ONCE CORDOVA IS LOADED>>>>        
+    // Indicates that Cordova is full loaded
+    // More info: https://cordova.apache.org/docs/en/latest/cordova/events/events.html
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // Wait to load ArcGIS API for JavaScript until after deviceready event
+    function onDeviceReady() {
+
+    ///NOW CALL loadResources ///>>>
     loadResources(resources, null, function(url, loaded) {
       if (typeof loadingCallback === 'function') {
         loadingCallback(url, loaded, resources.length);
@@ -199,7 +209,9 @@ var ie = (function() {
           });
         });
       }
-    });
+    }); //end of loadResources
+    };
+
   }
 
   function setLocale(){
