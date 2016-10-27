@@ -6,6 +6,6 @@
 	"EnableOrDisablePopup": true,
 	"MoveupOrMovedown": true,
 	"OpenAttributeTable": true,
-	"DescriptionOrShowItemDetailsOrDownload": true
+	"DescriptionOrShowItemDetailsOrDownload": false
   }
 }
