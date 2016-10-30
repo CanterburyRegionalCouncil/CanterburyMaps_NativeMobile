@@ -137,7 +137,7 @@
         <!-- App Icon -->
 
         <!-- iPhone 6 / 6+ -->
-        <icon src="icon-60@3x.png" platform="ios" width="180" height="180" />
+        <icon src="res/icon/ios/icon-60@3x.png" platform="ios" width="180" height="180" />
 
         <!-- iPhone / iPod Touch  -->
         <icon src="res/icon/ios/icon-60.png" platform="ios" width="60" height="60" />
@@ -189,12 +189,12 @@
     <platform name="android">
         <!-- app icons -->
 
-        <icon src="ldpi.png" platform="android" qualifier="ldpi" />
-        <icon src="mdpi.png" platform="android" qualifier="mdpi" />
-        <icon src="hdpi.png" platform="android" qualifier="hdpi" />
-        <icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
-        <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
-        <icon src="fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
+        <icon src="res/icon/android/ldpi.png" platform="android" qualifier="ldpi" />
+        <icon src="res/icon/android/mdpi.png" platform="android" qualifier="mdpi" />
+        <icon src="res/icon/android/hdpi.png" platform="android" qualifier="hdpi" />
+        <icon src="res/icon/android/xhdpi.png" platform="android" qualifier="xhdpi" />
+        <icon src="res/icon/android/xxhdpi.png" platform="android" qualifier="xxhdpi" />
+        <icon src="res/icon/android/fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
 
         <!-- you can use any density that exists in the Android project -->
         <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
