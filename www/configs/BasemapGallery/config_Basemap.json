@@ -226,8 +226,6 @@
         }
       },
       {
-        "title": "Latest Imagery",
-        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/012fb63cb6554686bb596d5ced78782d/info/thumbnail/imagery_new.jpg",
         "layers": [
           {
             "id": "Imagery_6396",
@@ -238,6 +236,8 @@
             "title": "Imagery"
           }
         ],
+        "title": "Latest Imagery",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/012fb63cb6554686bb596d5ced78782d/info/thumbnail/imagery_new.jpg",
         "spatialReference": {
           "wkid": 2193,
           "latestWkid": 2193
@@ -260,8 +260,6 @@
         }
       },
       {
-        "title": "Street",
-        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/303e7ea5f39642728cd78daf8dd19279/info/thumbnail/Street.png",
         "layers": [
           {
             "id": "SimpleBasemap_6983",
@@ -272,6 +270,8 @@
             "title": "SimpleBasemap"
           }
         ],
+        "title": "Street",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/303e7ea5f39642728cd78daf8dd19279/info/thumbnail/Street.png",
         "spatialReference": {
           "wkid": 2193,
           "latestWkid": 2193
@@ -294,8 +294,6 @@
         }
       },
       {
-        "title": "Topo",
-        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/b4db0fde3ed446e280b4c195e4a53a1f/info/thumbnail/ago_downloaded.png",
         "layers": [
           {
             "id": "Topoimagery_381",
@@ -304,6 +302,8 @@
             "url": "http://gis.ecan.govt.nz/ArcGIS/rest/services/Topoimagery/MapServer"
           }
         ],
+        "title": "Topo",
+        "thumbnailUrl": "//ecan.maps.arcgis.com/sharing/rest/content/items/b4db0fde3ed446e280b4c195e4a53a1f/info/thumbnail/ago_downloaded.png",
         "spatialReference": {
           "wkid": 2193,
           "latestWkid": 2193
