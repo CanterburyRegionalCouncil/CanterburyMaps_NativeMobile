@@ -28,7 +28,7 @@
   "subtitle": "",
   "keepAppState": true,
   "logo": "images\\logo.png",
-  "geometryService": "http://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "geometryService": "http://gis.ecan.govt.nz/arcgis/rest/services/Utilities/Geometry/GeometryServer",
   "links": [
     {
       "label": "About",
