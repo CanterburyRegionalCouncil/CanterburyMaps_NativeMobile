@@ -64,23 +64,27 @@ define([
       
         console.log("share url:" + url);
         // START NATIVE PLUGIN
-        // INPUTS
-        // message,subject,file,url,successcallback,errorcallback
-        window.plugins.socialsharing.share(
-          "I like this map on CanterburyMaps.govt.nz",
-          "Cool maps on CanterburyMaps.govt.nz",
-          null,
-          url,
-          [successCallback], // e.g. function(result) {console.log('result: ' + result)}
-          [errorCallback]    // e.g. function(result) {alert('error: ' + result);
-        );
+        // this is the complete list of currently supported params you can pass to the plugin (all optional)
+        var options = {
+          message: 'I like this map on CanterburyMaps.govt.nz', // not supported on some apps (Facebook, Instagram)
+          subject: 'Cool maps on CanterburyMaps.govt.nz', // fi. for email
+          files: [], // an array of filenames either locally or remotely
+          url: url,
+          chooserTitle: 'Pick an app' // Android only, you can override the default share sheet title
+        };
+
+        var onSuccess = function(result) {
+          console.log("Share completed? " + result.completed); // On Android apps mostly return false even while it's true
+          console.log("Shared to app: " + result.app); // On Android result.app is currently empty. On iOS it's empty when sharing is cancelled (result.completed=false)
+        };
+
+        var onError = function(msg) {
+          console.log("Sharing failed with message: " + msg);
+          alert('Error on Sharing: ' + msg) ;
+        };
         
-      },
-      successCallback:function(result){
-        console.log('Sharing result: ' + result);
-      },
-      errorCallback:function(result){
-        alert('Error on Sharing: ' + result) ;
+        window.plugins.socialsharing.shareWithOptions(options, onSuccess, onError);
+
       }
      
     });
