@@ -447,15 +447,6 @@
         "index": 8,
         "id": "widgets_About_Widget_21",
         "icon": "widgets/About/images/icon.png?wab_dv=2.1"
-      },
-      {
-        "name": "Share",
-        "version": "2.2",
-        "uri": "widgets/Share/Widget",
-        "config": "configs/Share/config_Share.json",
-        "index": 9,
-        "id": "widgets_Share_Widget_28",
-        "icon": "widgets/Share/images/icon.png?wab_dv=2.1"
       }
     ],
     "groups": []
