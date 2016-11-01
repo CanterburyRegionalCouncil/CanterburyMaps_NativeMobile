@@ -14,7 +14,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail.png",
+      "thumbnail": "configs/Bookmark/thumbnail.png",
       "isInWebmap": false
     },
     {
@@ -31,7 +31,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_1.png",
+      "thumbnail": "configs/Bookmark/thumbnail_1.png",
       "isInWebmap": false
     },
     {
@@ -48,7 +48,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_2.png",
+      "thumbnail": "configs/Bookmark/thumbnail_2.png",
       "isInWebmap": false
     },
     {
@@ -65,7 +65,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_3.png",
+      "thumbnail": "configs/Bookmark/thumbnail_3.png",
       "isInWebmap": false
     },
     {
@@ -82,7 +82,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_4.png",
+      "thumbnail": "configs/Bookmark/thumbnail_4.png",
       "isInWebmap": false
     },
     {
@@ -99,7 +99,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_5.png",
+      "thumbnail": "configs/Bookmark/thumbnail_5.png",
       "isInWebmap": false
     },
     {
@@ -116,7 +116,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_6.png",
+      "thumbnail": "configs/Bookmark/thumbnail_6.png",
       "isInWebmap": false
     },
     {
@@ -133,7 +133,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_7.png",
+      "thumbnail": "configs/Bookmark/thumbnail_7.png",
       "isInWebmap": false
     },
     {
@@ -150,7 +150,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_8.png",
+      "thumbnail": "configs/Bookmark/thumbnail_8.png",
       "isInWebmap": false
     },
     {
@@ -167,7 +167,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_9.png",
+      "thumbnail": "configs/Bookmark/thumbnail_9.png",
       "isInWebmap": false
     },
     {
@@ -184,7 +184,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_10.png",
+      "thumbnail": "configs/Bookmark/thumbnail_10.png",
       "isInWebmap": false
     },
     {
@@ -201,7 +201,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_11.png",
+      "thumbnail": "configs/Bookmark/thumbnail_11.png",
       "isInWebmap": false
     },
     {
@@ -218,7 +218,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_12.png",
+      "thumbnail": "configs/Bookmark/thumbnail_12.png",
       "isInWebmap": false
     },
     {
@@ -235,7 +235,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_13.png",
+      "thumbnail": "configs/Bookmark/thumbnail_13.png",
       "isInWebmap": false
     },
     {
@@ -252,7 +252,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_14.png",
+      "thumbnail": "configs/Bookmark/thumbnail_14.png",
       "isInWebmap": false
     },
     {
@@ -269,7 +269,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_15.png",
+      "thumbnail": "configs/Bookmark/thumbnail_15.png",
       "isInWebmap": false
     },
     {
@@ -286,7 +286,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_16.png",
+      "thumbnail": "configs/Bookmark/thumbnail_16.png",
       "isInWebmap": false
     },
     {
@@ -303,7 +303,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_17.png",
+      "thumbnail": "configs/Bookmark/thumbnail_17.png",
       "isInWebmap": false
     },
     {
@@ -320,7 +320,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_18.png",
+      "thumbnail": "configs/Bookmark/thumbnail_18.png",
       "isInWebmap": false
     },
     {
@@ -337,7 +337,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_19.png",
+      "thumbnail": "configs/Bookmark/thumbnail_19.png",
       "isInWebmap": false
     },
     {
@@ -354,7 +354,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_20.png",
+      "thumbnail": "configs/Bookmark/thumbnail_20.png",
       "isInWebmap": false
     },
     {
@@ -371,7 +371,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_21.png",
+      "thumbnail": "configs/Bookmark/thumbnail_21.png",
       "isInWebmap": false
     },
     {
@@ -388,7 +388,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_22.png",
+      "thumbnail": "configs/Bookmark/thumbnail_22.png",
       "isInWebmap": false
     },
     {
@@ -405,7 +405,7 @@
           "latestWkid": 2193
         }
       },
-      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_23.png",
+      "thumbnail": "configs/Bookmark/thumbnail_23.png",
       "isInWebmap": false
     }
   ],
