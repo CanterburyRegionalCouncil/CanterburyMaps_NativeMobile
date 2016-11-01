@@ -32,7 +32,7 @@
   "links": [
     {
       "label": "About",
-      "url": "http://canterburymapstest.azurewebsites.net/about/go-mobile/"
+      "url": "http://canterburymaps.govt.nz/mobile-gis-viewer"
     }
   ],
   "widgetOnScreen": {
