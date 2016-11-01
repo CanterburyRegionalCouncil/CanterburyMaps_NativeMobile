@@ -1,0 +1,16 @@
+{
+  "name": "MobileShare",
+  "platform": "HTML",
+  "version": "2.2",
+  "wabVersion": "2.2",
+  "author": "Iain Campion",
+  "description": "Native Mobile Share via Cordova",
+  "copyright": "Iain Campion",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "inPanel": false,
+    "hasUIFile": false,
+    "hasConfig": false,
+    "supportMultiInstance": false
+  }
+}

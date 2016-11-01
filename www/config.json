@@ -184,6 +184,18 @@
         "config": "configs/MyLocation/config_MyLocation.json"
       },
       {
+        "uri": "widgets/MobileShare/Widget",
+        "position": {
+          "left": 7,
+          "top": 145,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_MobileShare_Widget_99",
+        "name": "MobileShare",
+        "config": "configs/MobileShare/config_MobileShare.json"
+      },
+      {
         "uri": "widgets/AttributeTable/Widget",
         "position": {
           "relativeTo": "browser"

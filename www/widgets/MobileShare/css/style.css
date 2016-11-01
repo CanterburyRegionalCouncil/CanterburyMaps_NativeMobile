@@ -1,0 +1,32 @@
+.jimu-widget-mobileshare {
+  background-color: #ccc;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+
+.jimu-widget-mobileshare .mobileshare {
+  	padding: 2px;
+	width: 30px;
+	height: 30px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	background-image: url("images/icon.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+.jimu-widget-mylocation .mobileshare{
+  background-color: rgba(0,0,0,0);
+}
+
+.jimu-widget-mobileshare .mobileshare:hover {
+  background-color: rgba(0,0,0,0.4);
+}
