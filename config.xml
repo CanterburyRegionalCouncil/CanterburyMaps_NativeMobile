@@ -262,4 +262,5 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <platform name="winphone" />
 </widget>
