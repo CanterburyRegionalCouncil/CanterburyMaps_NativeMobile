@@ -262,4 +262,5 @@
     </platform>
     <platform name="winphone" />
     <platform name="windows" />
+    <preference name="windows-identity-name" value="CanterburyRegionalCouncil.CanterburyMaps" />
 </widget>
