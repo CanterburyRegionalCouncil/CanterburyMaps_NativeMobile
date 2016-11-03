@@ -431,15 +431,6 @@
         "label": "Basemap"		
       },
       {
-        "name": "Bookmark",
-        "version": "2.2",
-        "uri": "widgets/Bookmark/Widget",
-        "index": 7,
-        "id": "widgets_Bookmark_Widget_24",
-        "config": "configs/Bookmark/config_Bookmark.json",
-        "icon": "widgets/Bookmark/images/icon.png?wab_dv=2.1"
-      },
-      {
         "name": "About",
         "version": "2.2",
         "uri": "widgets/About/Widget",
