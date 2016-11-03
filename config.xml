@@ -88,6 +88,8 @@
     <feature name="Keyboard">
         <param name="ios-package" onload="true" value="CDVKeyboard" />
     </feature>
+    
+    <!-- for android -->
 
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
@@ -110,7 +112,23 @@
     <feature name="Keyboard">
         <param name="android-package" onload="true" value="org.apache.cordova.labs.keyboard.Keyboard" />
     </feature>
-
+    
+    <!-- for windows phone -->
+    <feature name="Device">
+        <param name="wp-package" value="Device" onload="true"/>
+    </feature>
+    <feature name="Compass">
+        <param name="wp-package" value="Compass" />
+    </feature>
+    <feature name="Accelerometer">
+        <param name="wp-package" value="Accelerometer"/>
+    </feature>
+    <feature name="Geolocation">
+        <param name="wp-package" value="Geolocation" onload="true"/>
+    </feature>
+    <feature name="Notification">
+        <param name="wp-package" value="Notification"/>
+    </feature>
 
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="none" />
