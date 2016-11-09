@@ -406,15 +406,13 @@
         "id": "widgets_AddData_Widget_29"
       },
       {
-		"name": "Gallery",
+		"name": "Explore",
+        "version": "2.0",
         "IsController": false,
-        "uri": "widgets/Gallery/Widget",
-        "config": "configs/Gallery/config_Explore.json",
+        "uri": "widgets/Explore/Widget",
+        "config": "configs/Explore/config_Explore.json",
         "index": 5,
-        "id": "widgets_Gallery_Widget_22",
-        "icon": "widgets/Gallery/images/icon.png?wab_dv=2.1",
-        "version": "0.0.1",
-        "label": "Explore"
+        "id": "widgets_Explore_Widget_30"
       },
       {
         "name": "BasemapGallery",

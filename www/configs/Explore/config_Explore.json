@@ -1,0 +1,6 @@
+{
+  "portalApiUri": "http://canterburymapstest.azurewebsites.net/Umbraco/Api/CanterburyMapsApi",
+  "description": "Search Canterbury Maps for interactive maps and story based applications.",
+  "pageSize": 6,
+  "itemDetailsUrl": "http://canterburymapstest.azurewebsites.net/map"
+}
