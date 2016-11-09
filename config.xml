@@ -2,31 +2,22 @@
 <widget id="nz.govt.canterburymaps" version="2.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>CanterburyMaps</name>
     <description>
-        Canterbury Maps is a mapping application that allows users to view and manipulate online maps from Canterbury Regional Council and other organisations in the Canterbury Region. 
+        Canterbury Maps is a mapping application allowing you to view and manipulate online maps from the Canterbury Regional Council and other organizations in the Canterbury Region.
 
-        The application allows the user to search pre-configured maps, located on the canterburymaps.govt.nz portal, accessed via a mobile device. 
+		This application allows you to access, through your mobile device, pre-configured maps and layers available on canterburymaps.govt.nz. 
 
-        The mapping application contains the following features 
+        The application offers the following features 
 
-        for the iPhone / iPad / iPad mini 
+        * Quick search for addresses and locations in Canterbury 
+        * Locate yourself on the map using GPS 
+        * Add and Switch between subject specific maps 
+        * Search and add individual layers to your map 
+        * Map Legend for visible map layers 
+        * Control the display of individual layers 
+        * Switch between a range base map options including historic aerial imagery 
+        * Identify features in the map and get extra detail via info pop-ups
+		* Share your map with others
 
-        * GPS - to locate where you are on the map 
-        * Gallery of pre-configured maps 
-        * Ability to turn mapping layers on/off 
-        * Ability to switch base maps 
-        * Pop-up windows with extra information on the map 
-        * Quick search method for addresses within Canterbury 
-        * Map legend support for the map loaded 
-        * Help pages. 
-
-        Additional features on iPads and iPad minis: 
-
-        * Drawing graphics on the map 
-        * Searching for map features on the map 
-        * Identifying features on the map 
-        * Share your map with others 
-        * Measure on the map 
-        * Locate positions on the map with coordinates.
     </description>
     <author email="ecinfo@ecan.govt.nz" href="http://canterburymaps.govt.nz">Canterbury Regional Council</author>
     <content src="index.html" />
