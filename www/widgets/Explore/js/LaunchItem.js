@@ -29,7 +29,7 @@ define([
 
   			}
         else if(response.action == "openWebApp"){
-            window.open(response.item.Url, '_self');
+            window.open(response.item.Url, '_blank');
         }
         else{ //openDetails
   				url = this._config.itemDetailsUrl + "?webmap=" + response.item.Id;
