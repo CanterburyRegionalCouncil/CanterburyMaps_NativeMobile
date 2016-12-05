@@ -16,7 +16,7 @@
       "mainBackgroundColor": "#004f9f"
     }
   },
-  "portalUrl": "http://ecan.maps.arcgis.com",
+  "portalUrl": "https://ecan.maps.arcgis.com",
   "appId": "",
   "authorizedCrossOriginDomains": [
     "gis.ecan.govt.nz",
@@ -28,7 +28,7 @@
   "subtitle": "",
   "keepAppState": true,
   "logo": "images\\logo.png",
-  "geometryService": "http://gis.ecan.govt.nz/arcgis/rest/services/Utilities/Geometry/GeometryServer",
+  "geometryService": "https://gis.ecan.govt.nz/arcgis/rest/services/Utilities/Geometry/GeometryServer",
   "links": [],
   "widgetOnScreen": {
     "widgets": [
@@ -368,7 +368,7 @@
         ]
       },
       "id": "map",
-      "portalUrl": "http://ecan.maps.arcgis.com"
+      "portalUrl": "https://ecan.maps.arcgis.com"
   },
   "widgetPool": {
     "panel": {
@@ -484,6 +484,6 @@
   "isWebTier": false,
   "httpProxy": {
     "useProxy": true,
-    "url": "/proxy.js"
+    "url": "https://preview.canterburymaps.govt.nz/mapviewer/proxy.ashx"
   }
 }
