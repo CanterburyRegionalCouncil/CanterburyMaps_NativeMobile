@@ -1,6 +1,6 @@
 {
-  "portalApiUri": "http://canterburymapstest.azurewebsites.net/Umbraco/Api/CanterburyMapsApi",
-	"description": "The gallery contains a list of interactive maps that display information on a variety of subjects and purpose built custom applications (apps) such as story maps that have been built for a specific purpose.",
+  "portalApiUri": "https://preview.canterburymaps.govt.nz/Umbraco/Api/CanterburyMapsApi",
+	"description": "Search Canterbury Maps for interactive maps and story based applications.",
   "pageSize": 6,
-  "itemDetailsUrl": "http://canterburymapstest.azurewebsites.net/map"
+  "itemDetailsUrl": "https://preview.canterburymaps.govt.nz/map"
 }
