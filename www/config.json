@@ -484,6 +484,6 @@
   "isWebTier": false,
   "httpProxy": {
     "useProxy": true,
-    "url": "https://mapviewer.canterburymaps.govt.nz/proxy.ashx"
+    "url": "http://mapviewer.canterburymaps.govt.nz/proxy.ashx"
   }
 }
